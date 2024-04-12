@@ -51,7 +51,9 @@ curl_close($ch);
         <p> Fecha de estreno <?= $data ['release_date']; ?></p>
         <p>La siguiente es: <?= $data ['following_production'] ["title"]; ?> </p>
     </hgroup>
-    
+    <footer>
+        <p>Powered by <a href="github.com/edwardtrindad">Edward Trindad</a></p>
+    </footer>
 </main>
 
 <style>
