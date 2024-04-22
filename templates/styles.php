@@ -26,4 +26,12 @@ img {
     display: block;
 
 }
+
+footer {
+    display: grid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 </style>
